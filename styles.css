@@ -1,1 +1,87 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    column-gap: 10px;
+}
+.left-div{
+    width: 50%;
+    border: 1px solid red;
+    
+}
+.profile-left{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.desc-left-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.name-left{
+    display: flex;
+}
+.skill-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 5px;
+}
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+}
+.line-row{
+    background-color: rgb(222, 222, 254);
+}
+.line-row div{
+    height: 5px;
+    width: 96%;
+    background-color: rgb(77, 77, 227);
+}
+#line-2-row{
+    width: 90%;
+}
+#line-3-row{
+    width: 98%;
+}
+#line-4-row{
+    width: 97%;
+}
+
+.right-div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    width: 50%;
+    row-gap: 5px;
+    
+}
+.rec-line{
+    width: 14%;
+    height: 4px;
+    background-color:rgb(71, 71, 243);
+    border-radius: 10px;
+}
+
+.desc-right-div p{
+    margin: 10px;
+    line-height: 25px;
+    font-size: 18px;
+}
